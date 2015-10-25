@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix(),...) {
 
 
 
-## cacheSolve takes in an object created by the makeCacheMatrix function
+## cacheSolve takes an object created by the makeCacheMatrix function
 ## It returns the cached inverse matrix (variable "invMat") if it is available
 ## otherwise it calculates the inverse matrix, stores it in cache, and returns it
 cacheSolve <- function(x,...){
